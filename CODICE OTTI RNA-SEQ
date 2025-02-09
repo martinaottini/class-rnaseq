@@ -18,6 +18,7 @@ Comparirà in alto a sinistra come uno script; successivamente una volta fatto p
 ### check if you can execute salmon by typing "salmon" on the terminal
 ## sometimes it fails on RStudio terminal, on CodeSpaces while it works on GitPod
 ## export PATH=${PATH}:/usr/local/bin
+
 cd rawdata 
 
 for sample in `ls *_1.fasta.gz`
